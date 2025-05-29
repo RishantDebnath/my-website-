@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishant Debnath - Web Developer Resume</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #1a2a6c, #b21f1f);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .profile-container {
+            margin: 0 auto 20px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background: linear-gradient(45deg, #3498db, #9b59b6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            font-size: 1.4rem;
+            font-weight: 300;
+            margin-bottom: 15px;
+            color: #f8f9fa;
+        }
+        
+        /* Main Content */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: #1a2a6c;
+            border-bottom: 3px solid #b21f1f;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 80px;
+            height: 3px;
+            background: #3498db;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            color: #b21f1f;
+            margin-bottom: 8px;
+        }
+        
+        h4 {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin: 10px 0 5px;
+        }
+        
+        p, li {
+            font-size: 1rem;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill {
+            background: #e3f2fd;
+            color: #1a2a6c;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #bbdefb;
+        }
+        
+        /* Contact Info */
+        .contact-info {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        /* Footer */
+        footer {
+            background: #1a2a6c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            header {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #b21f1f, transparent);
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-container">
+                <img src="../capestone project-1 Online resume/IMG-20250220-WA0018.jpg" alt="my profile picture" class="profile-img">
+            </div>
+            <h1>RISHANT DEBNATH</h1>
+            <div class="subtitle">WEB DEVELOPER</div>
+        </header>
+        
+        <div class="content">
+            <div class="left-column">
+                <section class="section">
+                    <h2>ABOUT ME</h2>
+                    <p>Practical and results-focused individual with a strong emphasis on smart work and strategic execution. Bold, confident, and calm under pressure, with a clear, calculated approach to problem-solving. Known for getting things done without unnecessary noise — focused on efficiency, clarity, and consistent delivery. A reliable self-starter who values action over talk and substance over style.</p>
+                </section>
+                
+                <section class="section">
+                    <h2>EDUCATION</h2>
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>Indira Gandhi National Open University (IGNOU) — MERIT College (Affiliated)</p>
+                    <ul>
+                        <li>Second Semester | 2025 – Present</li>
+                        <li>Current GPA: 8.5</li>
+                        <li>Coursework includes Programming Concepts, Data Structures, and Computer Networks.</li>
+                    </ul>
+                </section>
+                
+                <section class="section">
+                    <h2>WORK EXPERIENCE</h2>
+                    <p>No work experience yet but I have completed several projects demonstrating my web development skills.</p>
+                </section>
+            </div>
+            
+            <div class="right-column">
+                <section class="section">
+                    <h2>CERTIFICATIONS & COURSES</h2>
+                    <h4>Full-Stack Web Development Bootcamp – Udemy (Ongoing)</h4>
+                    <p>Covers HTML, CSS, JavaScript, React, Node.js, MongoDB, and deployment practices.</p>
+                    
+                    <h4>Python Bootcamp for Beginners to Advanced – Udemy (Ongoing)</h4>
+                    <p>Focused on core Python programming, object-oriented principles, and real-world projects.</p>
+                </section>
+                
+                <section class="section">
+                    <h2>REFERENCES</h2>
+                    <p><strong>JONE DOE</strong></p>
+                    <p>TITLE/POSITION</p>
+                    <p>PHONE: 0000999888</p>
+                    <p>EMAIL: JONEDOE@GMAIL.COM</p>
+                </section>
+                
+                <section class="section">
+                    <h2>SKILLS</h2>
+                    <div class="skills">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React.js</div>
+                        <div class="skill">Node.js</div>
+                        <div class="skill">MongoDB</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">Problem Solving</div>
+                        <div class="skill">Microsoft Office</div>
+                        <div class="skill">Photoshop</div>
+                    </div>
+                </section>
+                
+                <section class="section">
+                    <h2>CONTACT</h2>
+                    <div class="contact-info">
+                        <p>EMAIL: rishant.debnath@example.com</p>
+                        <p>PHONE: +91 9876543210</p>
+                        <p>LOCATION: Kolkata, India</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Rishant Debnath. All rights reserved.</p>
+            <p>Last updated: October 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
